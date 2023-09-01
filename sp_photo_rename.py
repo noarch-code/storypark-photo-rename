@@ -73,5 +73,5 @@ with open("stories_index.html") as fp:
             else:## exif updates
                 print('ERROR - NOT A JPG FILE: ' + oldName)
             ## Execute the rename (can only be run once with a rename) comment out for a dry run
-            ##os.rename(oldName, newName)
+            os.rename(oldName, newName)
 
